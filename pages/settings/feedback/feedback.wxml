@@ -1,0 +1,8 @@
+<view class="container">
+    <text class="feedback-label">问题描述</text>
+    <textarea class="feedback-text" placeholder="请详细你所遇到的问题" bindblur="getContent"/>
+    <text class="connect-label">联系方式</text>
+    <textarea class="connect-text" placeholder="请留下您的邮箱方便将问题处理反馈给您" bindblur="getConnection"/>
+    <button class="feedback-button" bindtap="submitSuggestion">提交</button>
+    <text class="tip">温馨提示：提交后我们将在后台收到您的反馈，且无跳转页面，请勿重复提交。</text>
+</view>

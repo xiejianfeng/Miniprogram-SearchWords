@@ -1,0 +1,16 @@
+<text class="clause">\n</text>
+<text class="clause">\n</text>
+<text class="clause">\n</text>
+<text class="clause">\n</text>
+<view class="section">
+  <input placeholder="Please input a word" bindinput='wordInput' focus="true" confirm-type="done"/>
+</view>
+<view class="button-search">
+  <text class="word-search" bindtap="search">search</text>
+</view>
+<view class="textView">
+  <text>{{text}}</text>
+</view>
+<view class="senView">
+  <text >{{sentext}}</text>
+</view>

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/word/word",
+    "pages/search/search",
+    "pages/settings/settings",
+    "pages/settings/clause/clause",
+    "pages/settings/help/help",
+    "pages/settings/feedback/feedback"
+  ],
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/search/search",
+        "text": "查词",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search-selected.png"
+      },
+      {
+        "pagePath": "pages/word/word",
+        "text": "四级",
+        "iconPath": "images/siji.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "设置",
+        "iconPath": "images/set.png",
+        "selectedIconPath": "images/settings-selected.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#FFFFFF",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "刺杀单词",
+    "navigationBarTextStyle": "white"
+  }
+}

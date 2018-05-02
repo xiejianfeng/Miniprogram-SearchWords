@@ -1,0 +1,13 @@
+<view class="container">
+    <text class="word-content">{{content}}</text>
+    <view class="pron-container">
+      <text class="word-pron" bindtap="read">/{{pron}}/</text>
+    </view>
+    <view class="button-miss">
+      <text class="word-miss" bindtap="show">show</text>
+    </view>
+    <view class="button-next">
+      <text class="word-next" bindtap="next">next</text>
+    </view>
+    <text wx:if="{{showNot}}" class="word-definition">{{definition}}</text>
+</view>
